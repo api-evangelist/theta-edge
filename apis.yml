@@ -1,0 +1,153 @@
+aid: theta-edge
+name: Theta EdgeCloud
+description: >-
+  Theta EdgeCloud is a distributed, hybrid AI and video cloud built on the
+  Theta Network blockchain, offering on-demand GPU compute for AI model
+  training, fine-tuning, inference, video transcoding, and live streaming.
+  EdgeCloud aggregates GPU capacity from data-center hyperscaler partners
+  and a global community of Edge Nodes (consumer and enterprise GPUs) into
+  a single dispatchable compute layer addressable via REST, JSON-RPC, and
+  SDK clients. Core services include EdgeCloud AI Services (on-demand
+  model inference APIs for LLMs, image, audio, and multimodal models such
+  as Llama, Stable Diffusion, FLUX, and Whisper; agentic RAG chatbots;
+  GPU-backed Jupyter notebooks; dedicated GPU pod deployments; and AI
+  training with GPU clusters), EdgeCloud Video Services (the Theta Video
+  API for upload, transcoding, livestream ingestion, DRM, NFT-gated
+  playback, and webhooks), EdgeStore (decentralized object storage), and
+  the EdgeCloud Client (an installable node that earns TFUEL for
+  contributing GPU and bandwidth). Developers authenticate with
+  x-api-key tokens issued from the EdgeCloud dashboard, manage
+  deployments programmatically through api.thetaedgecloud.com and the
+  Node.js SDK @thetalabs/theta-edgecloud, and access on-demand model
+  endpoints (also distributed through RapidAPI). The Theta blockchain
+  layer is EVM-compatible with an Ethereum RPC adaptor, supports TNT-20
+  tokens and NFTs, and underwrites EdgeCloud's payment, rewards, and
+  staking economy through the THETA governance token and TFUEL gas
+  token. Theta operates as Theta Labs, headquartered in San Jose,
+  California.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Distributed Computing
+  - GPU Compute
+  - AI Compute
+  - AI Inference
+  - AI Training
+  - Edge Computing
+  - Video Transcoding
+  - Live Streaming
+  - Video API
+  - Blockchain
+  - Web3
+  - Decentralized Infrastructure
+  - DePIN
+  - LLM
+  - Generative AI
+  - RAG
+  - NFT
+  - DRM
+  - EVM Compatible
+  - Storage
+url: https://raw.githubusercontent.com/api-evangelist/theta-edge/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.thetaedgecloud.com
+  - type: ProductOverview
+    url: https://docs.thetatoken.org/docs/theta-edgecloud-overview
+  - type: AIServices
+    url: https://docs.thetatoken.org/docs/theta-edgecloud-ai-services
+  - type: VideoServices
+    url: https://docs.thetatoken.org/docs/theta-video-api-overview
+  - type: OnDemandModelAPIs
+    url: https://docs.thetatoken.org/docs/edgecloud-on-demand-model-apis
+  - type: ManageDeploymentsAPI
+    url: https://docs.thetatoken.org/docs/use-edgecloud-api-keys-to-manage-deployments
+  - type: APIKeys
+    url: https://docs.thetatoken.org/docs/edgecloud-api-keys
+  - type: ClientRPCAPI
+    url: https://docs.thetatoken.org/docs/theta-edgecloud-client-rpc-apis
+  - type: ClientGuide
+    url: https://docs.thetatoken.org/docs/theta-edgecloud-client-guide
+  - type: ClientCLI
+    url: https://docs.thetatoken.org/docs/theta-edgecloud-client-cli-guide
+  - type: ClientInstall
+    url: https://docs.thetatoken.org/docs/theta-edgecloud-client-installation-instructions
+  - type: VideoAPIDeveloper
+    url: https://docs.thetatoken.org/docs/theta-video-api-developer-api
+  - type: VideoWebhooks
+    url: https://docs.thetatoken.org/docs/theta-video-api-webhooks
+  - type: VideoLivestream
+    url: https://docs.thetatoken.org/docs/theta-video-api-livestream
+  - type: VideoDRM
+    url: https://docs.thetatoken.org/docs/theta-video-api-drm-player
+  - type: VideoNFTDRM
+    url: https://docs.thetatoken.org/docs/theta-nft-based-drm
+  - type: VideoStreamAnalytics
+    url: https://docs.thetatoken.org/docs/edgecloud-video-and-stream-analytics
+  - type: RAGChatbot
+    url: https://docs.thetatoken.org/docs/edgecloud-rag-chatbot
+  - type: AgenticAI
+    url: https://docs.thetatoken.org/docs/edgecloud-agentic-ai
+  - type: GPUClusters
+    url: https://docs.thetatoken.org/docs/edgecloud-ai-training-with-gpu-clusters
+  - type: PersistentStorage
+    url: https://docs.thetatoken.org/docs/edgecloud-persistent-storage
+  - type: ContainerizedWorkloads
+    url: https://docs.thetatoken.org/docs/running-generic-containerized-workload
+  - type: Documentation
+    url: https://docs.thetatoken.org
+  - type: LLMsTxt
+    url: https://docs.thetatoken.org/llms.txt
+  - type: NodeSDK
+    url: https://www.npmjs.com/package/@thetalabs/theta-edgecloud
+  - type: BlockchainProtocol
+    url: https://github.com/thetatoken/theta-protocol-ledger
+  - type: EthereumRPCAdaptor
+    url: https://github.com/thetatoken/theta-eth-rpc-adaptor
+  - type: RosettaAdaptor
+    url: https://github.com/thetatoken/theta-rosetta-rpc-adaptor
+  - type: MainnetIntegrationGuide
+    url: https://github.com/thetatoken/theta-mainnet-integration-guide
+  - type: EdgeStoreDemos
+    url: https://github.com/thetatoken/theta-edge-store-demos
+  - type: RAGChatbotExample
+    url: https://github.com/thetatoken/theta-edgecloud-chatbot-example
+  - type: SketchTo3DExample
+    url: https://github.com/thetatoken/theta-edgecloud-sketch-to-3d-example
+  - type: VirtualTryOnExample
+    url: https://github.com/thetatoken/theta-edgecloud-virtual-try-on-example
+  - type: VideoAPIDemo
+    url: https://github.com/thetatoken/theta-video-api-demo
+  - type: Whitepapers
+    url: https://docs.thetatoken.org/docs/whitepapers
+  - type: GitHub
+    url: https://github.com/thetatoken
+  - type: BlockchainExplorer
+    url: https://explorer.thetatoken.org
+  - type: Wallet
+    url: https://wallet.thetatoken.org
+  - type: ThetaLabs
+    url: https://www.thetalabs.org
+  - type: Blog
+    url: https://medium.com/theta-network
+  - type: Twitter
+    url: https://twitter.com/Theta_Network
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/theta-labs-inc-
+  - type: YouTube
+    url: https://www.youtube.com/@ThetaNetwork
+  - type: Discord
+    url: https://discord.com/invite/E2y9SaPp4q
+  - type: Telegram
+    url: https://t.me/thetanetwork
+  - type: CommunityFAQ
+    url: https://docs.thetatoken.org/docs/community-faq
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

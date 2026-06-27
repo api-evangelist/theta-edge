@@ -102,7 +102,7 @@ common:
     url: https://docs.thetatoken.org/docs/running-generic-containerized-workload
   - type: Documentation
     url: https://docs.thetatoken.org
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://docs.thetatoken.org/llms.txt
   - type: NodeSDK
     url: https://www.npmjs.com/package/@thetalabs/theta-edgecloud

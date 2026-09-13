@@ -1,0 +1,81 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "Theta EdgeCloud",
+    "documentationUrl": "https://docs.thetatoken.org/docs/theta-edgecloud-overview"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:thetaedgecloud.com:docs:overview",
+      "displayName": "Theta EdgeCloud Documentation",
+      "type": "text/markdown",
+      "url": "https://docs.thetatoken.org/docs/theta-edgecloud-overview.md",
+      "description": "Markdown documentation for Theta EdgeCloud: GPU node rental, on-demand model inference, dedicated model serving, notebooks and GPU clusters. The full page index is at https://docs.thetatoken.org/llms.txt.",
+      "tags": [
+        "documentation",
+        "gpu",
+        "ai",
+        "inference"
+      ],
+      "representativeQueries": [
+        "what is Theta EdgeCloud",
+        "how do I rent a GPU on Theta EdgeCloud",
+        "how to deploy an AI model on Theta EdgeCloud",
+        "Theta EdgeCloud documentation"
+      ]
+    },
+    {
+      "identifier": "urn:air:thetaedgecloud.com:api:api-catalog",
+      "displayName": "Theta EdgeCloud API Catalog",
+      "type": "application/linkset+json",
+      "url": "https://www.thetaedgecloud.com/.well-known/api-catalog",
+      "description": "RFC 9727 API catalog listing the Theta EdgeCloud controller API and the on-demand model inference API, with links to their documentation. Authentication is a project-scoped API key in the x-api-key header.",
+      "tags": [
+        "api",
+        "rest",
+        "gpu",
+        "inference"
+      ],
+      "representativeQueries": [
+        "what APIs does Theta EdgeCloud expose",
+        "Theta EdgeCloud REST API documentation",
+        "how do I authenticate with the Theta EdgeCloud API"
+      ]
+    },
+    {
+      "identifier": "urn:air:thetaedgecloud.com:skills:theta-edgecloud",
+      "displayName": "Theta EdgeCloud Agent Skill",
+      "type": "application/ai-skill+md",
+      "url": "https://www.thetaedgecloud.com/.well-known/agent-skills/theta-edgecloud/SKILL.md",
+      "description": "Agent skill (SKILL.md) explaining how to rent GPU nodes, run on-demand inference and read billing through the Theta EdgeCloud API, including authentication and safety rules for billable actions.",
+      "tags": [
+        "skill",
+        "agent",
+        "gpu",
+        "inference"
+      ],
+      "representativeQueries": [
+        "create a GPU node on Theta EdgeCloud with the API",
+        "list available GPUs and prices on Theta EdgeCloud",
+        "run inference on Theta EdgeCloud on-demand model APIs"
+      ]
+    },
+    {
+      "identifier": "urn:air:thetaedgecloud.com:pricing:rtx-gpu",
+      "displayName": "Theta EdgeCloud RTX GPU Pricing",
+      "type": "text/html",
+      "url": "https://www.thetaedgecloud.com/rtx-gpu",
+      "description": "Hourly rates and availability for community RTX GPUs (5090, 4090, 3090 and more) on Theta EdgeCloud, with a quiz to pick the right GPU. Also served as Markdown when requested with Accept: text/markdown.",
+      "tags": [
+        "pricing",
+        "gpu",
+        "rtx"
+      ],
+      "representativeQueries": [
+        "how much does an RTX 4090 cost per hour on Theta EdgeCloud",
+        "cheapest GPU rental on Theta EdgeCloud",
+        "Theta EdgeCloud RTX 5090 price"
+      ]
+    }
+  ]
+}
